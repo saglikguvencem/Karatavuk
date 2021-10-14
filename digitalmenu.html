@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/7e6e36e524.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <meta name="author" content="KutDev">
+    <meta name="keywords" content="kara tavuk, bbq, kara tavuk bbq, kara tavuk dijital menü">
+    <meta name="description" content="Chicken Smoked BBQ-Smoked BBQ-Füme Tavuk">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Kara Tavuk BBQ Dijital Menü</title>
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+</head>
+<body>
+    <div id="container">
+        <div id="logo-box">
+            
+            <h1 class="text-uppercase">Kara Tavuk Bbq</h1>
+        </div>
+        <div id="ul-menu">
+            <ul>
+                
+                <li><a href="index.html">Anasayfa</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="menu">
+        <h1>Dijital Menümüz</h1>
+       <center> <i class="fas fa-clipboard-list"></i></center>
+       
+        <div  onclick="urun1()" id="item">
+            <h4>karaKOL BBQ</h4>
+             <img class="menu-foto img-fluid" src="images/tavuk-1.jpg">
+            <br>
+            <p>₺38.00</p>
+        </div>
+       
+        <div  onclick="urun2()" id="item">
+            <h4>karaBUT BBQ</h4>
+            <img class="menu-foto img-fluid" src="images/tavuk-1.jpg">
+            <br>
+            <p>₺38.00</p>
+        </div>
+        <div  onclick="urun3()" id="item">
+            <h4>karaKANAT BBQ</h4>
+            <img class="menu-foto img-fluid" src="images/tavuk-1.jpg">
+            <br>
+            <p>₺42.00</p>
+        </div>
+        <div  onclick="urun4()" id="item">
+            <h4>karaİNCİ BBQ</h4>
+            <img class="menu-foto img-fluid" src="images/tavuk-1.jpg">
+            <br>
+            <p>₺42.00</p>
+        </div>  
+        <div  onclick="urun5()" id="item">
+            <h4>karaDÜRÜM Sade</h4>
+            <img class="menu-foto img-fluid" src="images/tavuk-1.jpg">
+            <br>
+            <p>₺27.00</p>
+        </div> 
+        <div  onclick="urun6()" id="item">
+            <h4>karaDÜRÜM Pilavlı</h4>
+            <img class="menu-foto img-fluid" src="images/tavuk-1.jpg">
+            <br>
+            <p>₺28.00</p>
+        </div> 
+        <div  onclick="urun7()" id="item">
+            <h4>ACIkaraDÜRÜM </h4>
+            <img class="menu-foto img-fluid" src="images/tavuk-1.jpg">
+            <br>
+            <p>₺29.00</p>
+        </div> 
+
+        <div  onclick="urun8()" id="item">
+            <h4>karaDÜRÜM Tahinli</h4>
+            <img class="menu-foto img-fluid" src="images/tavuk-1.jpg">
+            <br>
+            <p>₺28.00</p>
+        </div> 
+        <div  onclick="urun9()" id="item">
+            <h4>EN karaDÜRÜM </h4>
+            <img class="menu-foto img-fluid" src="images/tavuk-1.jpg">
+            <br>
+            <p>₺38.00</p>
+        </div> 
+
+
+    
+    </div>
+    
+    <script>
+        function urun1(){
+            Swal.fire({
+  title: 'karaKOL BBQ',
+  text: 'İsli Kalçalı But(340 gr.)-Basmati Pilavı-Yeşil Elmalı BBQ Sos-Salata-Tandır Ekmeği',
+  imageUrl: 'images/tavuk-1.jpg',
+  imageWidth: 300,
+  imageHeight: 200,
+  imageAlt: 'Ürün Fotoğrafı',
+})
+        }
+        function urun2(){
+            Swal.fire({
+  title: 'karaBUT BBQ',
+  text: '2 Adet İsli Baget (340 gr.)-Basmati Pilavı-Yeşil Elmalı BBQ Sos-Salata-Tandır Ekmeği',
+  imageUrl: 'images/tavuk-1.jpg',
+  imageWidth: 300,
+  imageHeight: 200,
+  imageAlt: 'Ürün Fotoğrafı',
+})
+        }
+        function urun3(){
+            Swal.fire({
+  title: 'karaKANAT BBQ',
+  text: '3 Adet İsli Tüm Kanat (340 gr.)-Basmati Pilavı-Yeşil Elmalı BBQ Sos-Salata-Tandır Ekmeği',
+  imageUrl: 'images/tavuk-1.jpg',
+  imageWidth: 300,
+  imageHeight: 200,
+  imageAlt: 'Ürün Fotoğrafı',
+})
+        }
+        function urun4(){
+            Swal.fire({
+  title: 'karaİNCİ BBQ',
+  text: '2 Adet İsli Kemiksiz Pirzola (320 gr.)-Basmati Pilavı-Yeşil Elmalı BBQ Sos-Salata-Tandır Ekmeği',
+  imageUrl: 'images/tavuk-1.jpg',
+  imageWidth: 300,
+  imageHeight: 200,
+  imageAlt: 'Ürün Fotoğrafı',
+})
+        }
+        function urun5(){
+            Swal.fire({
+  title: 'karaDÜRÜM Sade',
+  text: 'Tandır ekmeğine pişmiş 100 gr. İsli Tiftik tavuk, yağlı sos (Soğanlı Ve Soğansız)',
+  imageUrl: 'images/tavuk-1.jpg',
+  imageWidth: 300,
+  imageHeight: 200,
+  imageAlt: 'Ürün Fotoğrafı',
+})
+        }
+        function urun6(){
+            Swal.fire({
+  title: 'karaDÜRÜM Pilavlı',
+  text: 'Tandır ekmeğine pişmiş 100 gr. İsli Tiftik tavuk, Basmati Pilavı, Yağlı sos (Tahinli Sos ......+₺1) (Soğanlı Ve Soğansız)',
+  imageUrl: 'images/tavuk-1.jpg',
+  imageWidth: 300,
+  imageHeight: 200,
+  imageAlt: 'Ürün Fotoğrafı',
+})
+        }
+        function urun7(){
+            Swal.fire({
+  title: 'ACIkaraDÜRÜM',
+  text: 'Tandır ekmeğine pişmiş 100 gr. İsli Tiftik tavuk, Basmati Pilavı, Yağlı sos, Acılı Zerzavat (Tahinli Sos ......+₺1.00) (Soğanlı Ve Soğansız)',
+  imageUrl: 'images/tavuk-1.jpg',
+  imageWidth: 300,
+  imageHeight: 200,
+  imageAlt: 'Ürün Fotoğrafı',
+})
+        }
+        function urun8(){
+            Swal.fire({
+  title: 'karaDÜRÜM Tahinli',
+  text: 'Tandır ekmeğine pişmiş 100 gr. İsli Tiftik tavuk, Yağlı sos, Tahinli Sos (Soğanlı Ve Soğansız)',
+  imageUrl: 'images/tavuk-1.jpg',
+  imageWidth: 300,
+  imageHeight: 200,
+  imageAlt: 'Ürün Fotoğrafı',
+})
+        }
+        function urun9(){
+            Swal.fire({
+  title: 'EN karaDÜRÜM',
+  text: 'Tandır ekmeğine pişmiş 180 gr. İsli Tiftik tavuk, Yağlı sos (Soğanlı Ve Soğansız) (Ekstra Lavaş ₺3.00) ',
+  imageUrl: 'images/tavuk-1.jpg',
+  imageWidth: 300,
+  imageHeight: 200,
+  imageAlt: 'Ürün Fotoğrafı',
+})
+        }
+    </script>
+</body>
+</html>
